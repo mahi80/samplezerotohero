@@ -7,10 +7,9 @@
 Set-Location "C:\Users\msb80\Documents\zTh"
 
 $committed = 0
+$folders = @("week1","week2","week3","week4","week5","week6","week6.5","week7","week7.5","week8","week9","week10")
 
-foreach ($week in 1..10) {
-    $folder = "week$week"
-    
+foreach ($folder in $folders) {
     if (-not (Test-Path $folder)) {
         Write-Host "  [$folder] Folder not found, skipping" -ForegroundColor Yellow
         continue
