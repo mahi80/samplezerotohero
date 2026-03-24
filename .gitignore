@@ -1,0 +1,12 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Claude Code worktrees
+.claude/
+
+# Temp files
+jupyter_url.txt
+__pycache__/
